@@ -1,0 +1,19 @@
+{
+    "epochs": 100,
+    "num_layers": 3,
+    "batch_size": 32,
+    "num_steps": 15,
+    "nr_features":13,
+    "hidden_size": 9,
+    "train_test_split":0.8,
+    "datadir":"/Users/srikanth/Documents/Bixi/data",
+    "logdir":"/Users/srikanth/Documents/Bixi/logdir",
+    "results_dir":"/Users/srikanth/Documents/Bixi/results",
+    "model_name":"mymodel",
+    "checkpoint_file":"mymodel-99.meta",
+    "fetches_with_state":true,
+    "time_delta":3,
+    "levels":50,
+    "data_columns":[30,31,32,33,34,35,36,37,38,39,40,41,42],
+    "label_columns":[30]
+}

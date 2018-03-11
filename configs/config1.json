@@ -1,0 +1,13 @@
+{
+    "epochs": 5,
+    "hidden_layers": [1024,512,256,128],
+    "batch_size": 32,
+    "train_test_split":0.8,
+    "datadir":"../../data",
+    "logdir":"../../logdir",
+    "model_name":"fnnmodel",
+    "checkpoint_file":"fnnmodel-9.meta",
+    "fetches_with_state":false,
+    "num_outputs":1,
+    "num_features":2
+}
