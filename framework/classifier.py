@@ -15,7 +15,6 @@ class Config:
 
 class Classifier:
     '''
-    regressificator = regression + classifier - doing regression problems using classification
     It is a class emulating the behaviour of Scikit-Learn's regressor or classifier providing
     interface for the functions fit, validate, predict, score etc
     '''
